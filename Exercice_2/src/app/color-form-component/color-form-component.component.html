@@ -1,0 +1,10 @@
+<form (click)="submit()">
+    <label for="favoriteColor">favoriteColor</label>
+    <input id="favoriteColor" name="favoriteColor" [(ngModel)]="favoriteColor"  type="text" placeholder="Enter your favorite color">
+    <button type="submit">Submit</button>
+</form>
+  <div>
+    votre couleur favorite est: {{displayColor}}
+  </div>
+
+
